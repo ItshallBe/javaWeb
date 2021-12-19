@@ -20,5 +20,6 @@ public class HelloServlet extends HttpServlet {
         req.setAttribute("currentTime", currentTime);
         req.getRequestDispatcher("/WEB-INF/jsp/hello.jsp").forward(req,
                 resp);
+        System.out.println("idea push test");
     }
 }
